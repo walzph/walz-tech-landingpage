@@ -46,6 +46,7 @@ const Contact = ({ data }) => {
               </div>
               <div className="mb-3">
                 <textarea
+                  name="message"
                   className="form-textarea w-full rounded-md"
                   rows="7"
                   placeholder="Your message"

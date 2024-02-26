@@ -12,8 +12,8 @@ function Cta({ cta }) {
               className="w-full"
               src={cta?.image}
               alt="call to action image"
-              width={325}
-              height={206}
+              width={250}
+              height={150}
             />
           </div>
           <div className="mt-5 text-center md:mt-0 md:text-left md:col-6 lg:col-5">

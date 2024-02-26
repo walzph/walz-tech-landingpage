@@ -1,74 +1,59 @@
 ---
 banner:
-  title: Let us solve your critical website development challenges
-  content: Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque <br/> totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus
-  image: /images/banner-art.svg
+  title: Elevate Your Cloud Journey
+  content: Unleash the potential of your cloud infrastructure, streamline your operations, and ensure reliability at scale.
+  image: /images/hero.png
   button:
     label: "Contact Us"
     link: "/contact"
 
 # feature
 feature: 
-  title: Something You Need To Know
+  title: Your Success, Our Commitment
   features:
-  - name: "Clean Code"
+  - name: "Tailored Strategies"
     icon: "/images/code.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Object Oriented"
+    content: "Every solution is customized to meet your specific needs and challenges."
+  - name: "Proven Expertise"
     icon: "/images/oop.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "24h Service"
+    content: "With years of experience and success stories, we are equipped to bring your projects to life."
+  - name: "Continuous Support"
     icon: "/images/user-clock.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Value for Money"
-    icon: "/images/love.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Faster Response"
-    icon: "/images/speedometer.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
-  - name: "Cloud Support"
-    icon: "/images/cloud.svg"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+    content: "Our relationship doesn’t end with project delivery. On request, we provide ongoing support and optimization for your systems."
+  # - name: "Value for Money"
+  #   icon: "/images/love.svg"
+  #   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+  # - name: "Faster Response"
+  #   icon: "/images/speedometer.svg"
+  #   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+  # - name: "Cloud Support"
+  #   icon: "/images/cloud.svg"
+  #   content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Cloud Infrastructure Consulting"
+    content: "Navigate the complexities of cloud adoption with our comprehensive consulting services. From strategy development to implementation, we ensure your cloud infrastructure is scalable, secure, and perfectly aligned with your business objectives."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/consulting.jpg"
     button:
       enable: true
       label: Check it out
       link: /contact
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "DevOps Solutions"
+    content: "Accelerate your software delivery without compromising on quality. Our DevOps solutions integrate development and operations seamlessly, fostering a culture of collaboration, efficiency, and continuous improvement."
     images: 
-      - "/images/service-slide-1.png"
+      - "/images/devops.png"
     button:
       enable: true
       label: Check it out
       link: /contact
   
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Site Reliability Engineering"
+    content: "Ensure your services are reliable, scalable, and resilient. Our Site Reliability Engineering services focus on creating robust systems that stand the test of time and demand, allowing you to focus on growth and innovation."
     images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
-    button:
-      enable: true
-      label: Check it out
-      link: /contact
-
-  - title: "A company standing different from others"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
-    images:
-      - "/images/service-slide-1.png"
-      - "/images/service-slide-2.png"
-      - "/images/service-slide-3.png"
+      - "/images/reliability.png"
     button:
       enable: true
       label: Check it out
@@ -76,15 +61,15 @@ services:
 
 # workflow
 workflow: 
-  title: "Experience the best workflow with us"
-  image: "/images/banner.svg"
+  title: "Your journey to success"
+  image: "/images/workflow.svg"
   description: ""
 
 # call_to_action
 call_to_action:
-  title: Ready to get started?
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur.
-  image: '/images/cta.svg'
+  title: Ready to transform your IT infrastructure? 
+  content: Let's talk about how we can make your systems more reliable, efficient, and scalable.
+  image: '/images/transform.png'
   button:
     enable: true
     label: "Contact Us"

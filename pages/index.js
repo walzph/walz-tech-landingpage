@@ -34,7 +34,7 @@ const Home = ({ frontmatter }) => {
               <Image
                 className="mx-auto mt-12"
                 src={banner.image}
-                width={750}
+                width={500}
                 height={390}
                 alt="banner image"
                 priority
@@ -148,10 +148,11 @@ const Home = ({ frontmatter }) => {
           {markdownify(workflow.description, "p", "mt-3")}
         </div>
         <Image
+          className="mx-auto mt-12"
           src={workflow.image}
           alt="workflow image"
-          width={1920}
-          height={296}
+          width={1600}
+          height={300}
         />
       </section>
 

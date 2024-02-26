@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Bigspring Light Nextjs",
+    "title": "walz tech consulting",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/logo_wide_200.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_text": "walz tech consulting"
   },
 
   "settings": {
@@ -22,10 +22,10 @@
   },
 
   "params": {
-    "contact_form_action": "",
+    "contact_form_action": "https://europe-west3-walz-tech-landingpage.cloudfunctions.net/contactFormHandler",
     "tag_manager_id": "",
-    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
-    "copyright": "Designed and Developed By [Themefisher](https://themefisher.com/)"
+    "footer_content": "Graphics by [Freepik](http://www.freepik.com/).",
+    "copyright": "© 2024 Philipp Walz UG (haftungsbeschränkt). "
   },
 
   "metadata": {

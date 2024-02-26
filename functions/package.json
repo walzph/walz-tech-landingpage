@@ -1,0 +1,10 @@
+{
+    "name": "contact-form-handler",
+    "description": "A contact form handler",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "dependencies": {
+        "@sendgrid/mail": "^8.1.1"
+    }
+}

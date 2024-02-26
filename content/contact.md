@@ -3,10 +3,10 @@ title: "Contact Us"
 layout: "contact"
 draft: false
 info: 
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Start Transforming Your IT Landscape Today!
+  description: Start your journey towards a more efficient, reliable, and scalable IT infrastructure. Contact us now for a free consultation and discover how we can help you achieve your IT goals
   contacts: 
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "Book an [Appointment](https://calendly.com/walz-tech/30min)"
+    - "Contact us on [WhatApp](https://wa.me/4915678715749/?text=Hello!+Can+you+support+me+to+transform+my+IT+infrastructure?)"
+    - "Send us an [Email](mailto:hello@walz.tech)"
 ---
