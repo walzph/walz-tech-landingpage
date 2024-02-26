@@ -35,7 +35,7 @@ services:
   - title: "Cloud Infrastructure Consulting"
     content: "Navigate the complexities of cloud adoption with our comprehensive consulting services. From strategy development to implementation, we ensure your cloud infrastructure is scalable, secure, and perfectly aligned with your business objectives."
     images:
-      - "/images/consulting.jpg"
+      - "/images/consulting.png"
     button:
       enable: true
       label: Check it out
