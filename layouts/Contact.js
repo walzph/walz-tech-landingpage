@@ -27,12 +27,18 @@ const Contact = ({ data }) => {
       window.grecaptcha.execute(recaptcha_site_key, { action: 'submit' }).then(token => {
         // Add reCAPTCHA token to form data
         const formData = new FormData(event.target);
+        const formProps = Object.fromEntries(formData);
         formData.append('token', token);
+        formProps.token = token;
         
         // Post form data with fetch API or your method of choice
         fetch(contact_form_action, {
-          method: 'POST',
-          body: formData,
+          method: 'POST',    
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+          },
+          body: JSON.stringify(formProps),
         })
         .then(response => {
           // Handle response
