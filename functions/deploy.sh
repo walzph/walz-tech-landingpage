@@ -10,5 +10,5 @@ gcloud functions deploy contactFormHandler \
     --trigger-http \
     --allow-unauthenticated \
     --entry-point=contactFormHandler \
-    --set-env-vars SENDGRID_API_KEY=$SENDGRID_API_KEY
+    --set-env-vars SENDGRID_API_KEY=$SENDGRID_API_KEY \
     --set-env-vars RECAPTCHA_SECRET_KEY=$RECAPTCHA_SECRET_KEY
