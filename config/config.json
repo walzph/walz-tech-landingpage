@@ -23,6 +23,7 @@
 
   "params": {
     "contact_form_action": "https://europe-west3-walz-tech-landingpage.cloudfunctions.net/contactFormHandler",
+    "recaptcha_site_key": "6LfdNZMpAAAAAGlbo2R4RNpw_xpVdMWqk_aPwE4h",
     "tag_manager_id": "",
     "footer_content": "Graphics by [Freepik](http://www.freepik.com/).",
     "copyright": "© 2024 Philipp Simon Walz"
