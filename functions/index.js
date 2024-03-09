@@ -48,7 +48,6 @@ exports.contactFormHandler = async (req, res) => {
       return;
     }
 
-    const successUrl = 'https://www.walz.tech/thank-you/';
     // Proceed with email sending logic
     sgMail.send({
       to: 'philipp@walz.tech',
@@ -57,7 +56,7 @@ exports.contactFormHandler = async (req, res) => {
       subject: subject,
       text: `You have received a new message from ${name} (${email}):\n\n${message}`,
     })
-      .then(() => res.redirect(successUrl))
+      .then(() => res.status(200))
       .catch((error) => {
         console.error('Failed to send message', error);
         res.status(500).send('Internal Server Error');

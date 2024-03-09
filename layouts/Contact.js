@@ -30,23 +30,31 @@ const Contact = ({ data }) => {
         const formProps = Object.fromEntries(formData);
         formData.append('token', token);
         formProps.token = token;
-        
+
         // Post form data with fetch API or your method of choice
         fetch(contact_form_action, {
-          method: 'POST',    
+          method: 'POST',
           headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
           },
           body: JSON.stringify(formProps),
         })
-        .then(response => {
-          // Handle response
-          console.log('Form submitted', response);
-        })
-        .catch(error => {
-          console.error('Error submitting form:', error);
-        });
+          .then(response => {
+            console.log('Form submitted', response);
+            if (response.ok) {
+              // Reset form fields if necessary
+              event.target.reset();
+              // Redirect to the thank-you page
+              window.location.href = 'https://walz.tech/thank-you';
+            } else {
+              // Handle non-OK responses here (e.g., display an error message)
+              console.error('Error submitting form:', response.statusText);
+            }
+          })
+          .catch(error => {
+            console.error('Error submitting form:', error);
+          });
       });
     });
   }, [contact_form_action, recaptcha_site_key]);
